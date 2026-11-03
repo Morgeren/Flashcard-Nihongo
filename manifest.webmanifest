@@ -1,0 +1,37 @@
+{
+  "id": "./",
+  "name": "Nihongo Study Deck V18.7",
+  "short_name": "Nihongo Deck",
+  "description": "Belajar bahasa Jepang dengan flashcard, SRS, kuis, reading, listening, grammar, dan pelacakan progres.",
+  "lang": "id-ID",
+  "start_url": "./index.html",
+  "scope": "./",
+  "display": "standalone",
+  "orientation": "portrait-primary",
+  "background_color": "#f5eee5",
+  "theme_color": "#f5eee5",
+  "categories": [
+    "education",
+    "utilities"
+  ],
+  "icons": [
+    {
+      "src": "./icons/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "any"
+    },
+    {
+      "src": "./icons/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any"
+    },
+    {
+      "src": "./icons/icon-512-maskable.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}
