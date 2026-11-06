@@ -1,0 +1,16 @@
+NIHONGO STUDY DECK V19.1 — STATIC INTEGRATION VALIDATION
+
+Project: /mnt/data/nihongo_v19_1_integration_work/source/nihongo_study_deck_pwa
+
+PASS | HTML IDs, menu routes and local script/style references | 301 unique ids; 22 local refs resolved; no duplicates
+PASS | CSS local font and asset URLs | local CSS URL references resolved across 2 CSS files
+PASS | Service worker offline shell | 67 local resources exist in precache list
+PASS | Seasonal JSON and image references | four seasons, both mode palettes, Asia/Tokyo schedule and all 8 image paths verified
+PASS | Runtime image dimensions and transparency | 8 WebP at 1080x1350; 5 genuine RGBA PNG empty states at 600x600
+PASS | Typography WOFF2 and OFL licensing files | 12 WOFF2 signatures valid; both OFL license files present
+PASS | Brand icon dimensions and PWA manifest | standard, maskable, favicon and Apple Touch assets match expected dimensions; manifest paths valid
+PASS | JavaScript syntax and module imports | 21 JavaScript files passed node --check; module imports resolved
+PASS | Original data and learning modules unchanged | 28 original legacy JS, V19 modules, datasets, reports and tests byte-identical to base ZIP
+PASS | Pet system scope audit | no identifiable pet-system implementation or entry point was found in V19.0 source; no pet-related source was modified
+
+Summary: 10/10 passed, 0 failed.

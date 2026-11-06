@@ -32,3 +32,27 @@
 - Grammar index masih memerlukan pemeriksaan kualitas dan kelengkapan.
 - Writing Practice khusus, Knowledge Graph visual, dictation/audio lokal, dan AI semantic correction belum diimplementasikan sebagai modul baru.
 - Pengujian browser nyata, Android fisik, instalasi PWA, dan perilaku offline setelah instalasi belum dilakukan di lingkungan build ini.
+
+
+## V19.1 — Cozy Japanese Countryside Integration Candidate
+
+### Added
+- Android-first four-destination shell: Home, Learn, Library, Progress; Settings remains a secondary header destination.
+- Seasonal Home and Study Room illustrations selected through the Asia/Tokyo Seasonal Engine.
+- Library hub with local vocabulary search, saved vocabulary view, and routes to existing Reading and Grammar features.
+- Five canonical transparent Empty State illustrations, shown only for empty data conditions.
+- Countryside Book app branding, local Noto Sans JP/Noto Serif JP WOFF2 assets, and typography CSS.
+- Seasonal Engine integration and semantic CSS token adapter for existing Light/Dark selectors.
+- PWA manifest branding and versioned service-worker precache for local V19.1 assets.
+
+### Preserved
+- Legacy learning scripts and original execution order.
+- Existing vocabulary, reading, legacy-reading, kanji-index, and grammar-index datasets.
+- Existing SRS, learning-state, progress, preferences, and storage structures.
+- Existing V19.0 modules, reports, and tests; static comparison found 28 compared source/data/report/test files byte-identical to the base package.
+
+### Known limitations / not verified
+- No identifiable pet-system implementation or entry point was found in the V19.0 base source; no pet code was changed.
+- Kanji index remains an extracted index, not a verified dictionary. Grammar patterns remain `needs_review`.
+- Browser visual rendering was blocked by the execution environment. Physical Android PWA installation, offline relaunch, service-worker update, and existing-profile migration remain NOT TESTED.
+- This build is an integration candidate for review, not a production-certified release.
