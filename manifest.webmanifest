@@ -1,8 +1,8 @@
 {
   "id": "./",
-  "name": "Nihongo Study Deck V18.7",
+  "name": "Nihongo Study Deck V19.0",
   "short_name": "Nihongo Deck",
-  "description": "Belajar bahasa Jepang dengan flashcard, SRS, kuis, reading, listening, grammar, dan pelacakan progres.",
+  "description": "Belajar bahasa Jepang offline dengan flashcard, SRS, reading, grammar, listening, dan pelacakan progres.",
   "lang": "id-ID",
   "start_url": "./index.html",
   "scope": "./",
